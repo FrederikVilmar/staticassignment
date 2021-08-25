@@ -1,0 +1,64 @@
+.logo{
+    width: 30%;
+}
+header {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-bottom: black solid 3px;
+
+    margin: 10px;
+
+    
+}
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+   color: black;
+   
+    
+}
+
+li {
+    border: black solid 2px;
+    border-radius: 1rem;
+    color:black;
+    padding: 7px;
+    
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.nav_links{
+    display: inline-block;
+}
+
+
+
+  .sale-item {
+    display: flex;
+    flex-flow: column;
+    border:  1px solid black;
+    border-radius: 1rem;
+    padding: 2rem;
+  }
+
+  main { 
+    max-width: 10000px;
+    margin: 0;
+  }
+  article {
+    margin: 0;
+  }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+  }
+body{
+    margin: 30px;
+}
