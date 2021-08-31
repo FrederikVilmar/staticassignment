@@ -13,7 +13,7 @@ document.querySelector(".item .brand").textContent=product.brandname;
 document.querySelector(".item .productname").textContent=product.productdisplayname;
 
 
-document.querySelector("img.productimg").src='https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp';
+document.querySelector("img.productimg").src=`https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp`;
 
 document.querySelector("img.productimg").alt= product.productdisplayname;
 
