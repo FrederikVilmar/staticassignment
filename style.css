@@ -37,8 +37,18 @@ li {
     display: inline-block;
 }
 
+article.soldout img {
+opacity: 0.5;
+}
 
-
+article.soldout::before {
+  display: flex;
+  content: "Sold Out";
+  justify-content: center;
+  background: lightgrey;
+  font-size: 20px;
+  border-radius: 1rem;
+}
   .sale-item {
     display: flex;
     flex-flow: column;
@@ -46,6 +56,7 @@ li {
     border-radius: 1rem;
     padding: 2rem;
   }
+
 
   main { 
     max-width: 10000px;
