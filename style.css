@@ -49,6 +49,22 @@ article.soldout::before {
   font-size: 20px;
   border-radius: 1rem;
 }
+
+.products article .discounted, 
+.products article .price span {
+  display: none;
+}
+.products article.on-sale .discounted {
+  display: flex;
+  justify-content: space-around;
+  color: red;
+}
+
+.products article.on-sale .price span{
+  display: flex;
+  justify-content:center;
+  
+}
   .sale-item {
     display: flex;
     flex-flow: column;
@@ -56,6 +72,13 @@ article.soldout::before {
     border-radius: 1rem;
     padding: 2rem;
   }
+
+  .price{
+    display: flex;
+    justify-content: space-around;
+  }
+
+
 
 
   main { 
