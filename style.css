@@ -21,6 +21,8 @@ li, a {
     
 }
 
+
+
 li {
     border: black solid 2px;
     border-radius: 1rem;
@@ -68,14 +70,20 @@ article.soldout::before {
   .sale-item {
     display: flex;
     flex-flow: column;
+    justify-content: space-around;
     border:  1px solid black;
     border-radius: 1rem;
     padding: 2rem;
   }
 
-  .price{
+.price{
     display: flex;
     justify-content: space-around;
+  }
+
+  .readmore{
+    display:block;
+    align-items: flex-end;
   }
 
 
