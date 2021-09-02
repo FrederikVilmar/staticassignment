@@ -26,17 +26,21 @@
             </header>
             <h1>Product List</h1>
     <main class="products">
-        
+        <template id="smallProductTemplate">
     <article class="sale-item">
         <h1>Sahara Team India Fanwear Round Neck Jersey</h1>
-        <p>Nike.</p>
-        <h2 class="price"> DKK 895,-</h2>
-       
-        <img src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp" alt="t-shirt">
-        <li><a href="product.html">Read More</a></li>
+        <img class="productimg" src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp" alt="t-shirt">
+        <p class="subtle">Tshirts | Nike.</p>
+        <h3 class="price"> <span>Prev. </span> DDK 895,-</h3>
+        <div class="discounted">
+          <h3>Now DKK 895,- </h3>
+          <p> -30%  </p>
+        </div>
+        
+        <li class="readmore"><a  href="product.html">Read More</a></li>
       </article>
-      
-      <article class="sale-item on-sale">
+    </template>
+     <!--  <article class="sale-item on-sale">
         <h1>Sahara Team India Fanwear Round Neck Jersey</h1>
         <p>Nike.</p>
         <h2 class="price"> <span>Prev. </span> DDK 895,-</h2>
@@ -75,7 +79,7 @@
         <img src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp"
              alt="t-shirt">
              <li><a href="product.html">Read More</a></li>
-      </article>
+      </article>-->
     </main>
     <script src="productlist.js "></script>
 </body>
